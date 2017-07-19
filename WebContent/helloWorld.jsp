@@ -7,6 +7,10 @@
 <title>Hello World JSP</title>
 </head>
 <body>
-	<%= "Hello World test AWS application" %>
+	<h1> "Hello World test AWS application" </h1>
+	<form action="helloServlet" method="post">
+		Enter your name: <input type="text" name = "yourName" size = "20">
+		<input type="submit" value="Call Servlet">
+	</form>
 </body>
 </html>
